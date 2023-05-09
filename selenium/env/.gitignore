@@ -1,0 +1,25 @@
+#ignore all the env files
+*.env
+```
+#all the dependencies from python
+```
+__pycache__/
+*.py[cod]
+*$py.class
+```
+#ignore all the files from the migrations
+```
+*/migrations/*
+```
+#ignore all the files from the static
+```
+*/static/*
+```
+#ignore all the files from the media
+```
+*/media/*
+```
+#ignore all the files from the templates
+```
+*/templates/*
+```

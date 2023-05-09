@@ -4,7 +4,7 @@ import time
 
 # Set up the driver and navigate to the LinkedIn job search page
 driver = webdriver.Chrome(executable_path="C:/Users/david/Desktop/chromedriver.exe")
-driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3594319244&f_AL=true&f_E=1%2C2%2C3&f_WT=2&geoId=91000011&keywords=developer&location=Latin%20America&refresh=true")
+driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3586568496&f_AL=true&f_E=1%2C2%2C3&f_WT=2&geoId=91000011&keywords=python%20developer&location=Latin%20America&refresh=true")
 # Click on the login button
 
 login_button = driver.find_element_by_class_name('nav__button-secondary')
@@ -23,7 +23,7 @@ time.sleep(2)
 
 while True:
     #wait for the page to load
-    time.sleep(4)
+    time.sleep(3)
     job_titles = driver.find_elements_by_css_selector(".job-card-container--clickable")
 
     for job_title in job_titles:
